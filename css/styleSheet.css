@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+html {
+  overflow-x: hidden;
+}
+
+
+#c {
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+.text-select-none{
+  -webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+body {
+  background: linear-gradient(
+      0deg,
+      rgb(85, 85, 85) 0%,
+      rgb(92, 92, 92) 79%,
+      #2f353b 100%
+    )
+    no-repeat fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  font-family: "Architects Daughter", cursive !important;
+}
+
+ol {
+  list-style: none;
+  padding-left: 10px;
+}
+ol > li {
+  padding-left: 20px;
+  position: relative;
+  margin: 10px;
+  margin-left: 0;
+}
+ol > li:before {
+  content: "✔";
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(255, 14, 14);
+}
+
+.a-card {
+  text-decoration: none;
+  color: inherit;
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+.a-card:hover {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.menuHead {
+  overflow: hidden;
+  background-color: rgba(153, 153, 153, 0.623);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.a-lab{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+.a-lab:hover{
+  text-decoration: none;
+  text-decoration-color: rgb(214, 234, 255);
+  color: rgb(214, 234, 255);
+}
+
+.link-hover-solid a {
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.link-hover-solid a:after {
+    background-color: #e6fffe;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.link-hover-solid a:hover:after,
+.link-hover-solid a:focus:after {
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media only screen and (max-width: 480px) {
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 550px) {
+}
+
+@media only screen and (max-height: 700px) {
+}

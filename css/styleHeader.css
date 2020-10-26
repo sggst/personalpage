@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+header nav {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(109, 117, 134, 0);
+  height: 50px;
+  border-radius: 0 0 10px 10px;
+  transition: all 1s ease-out;
+  position: relative;
+  overflow: hidden;
+}
+
+header nav > ul {
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  height: 100%;
+  padding-left: 0;
+}
+
+header nav > ul > li {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  background-color: #88888800;
+  border: rgba(168, 168, 168, 0) 1px solid;
+  transition: all 1s ease-out;
+}
+
+header nav > ul > li > a {
+  text-decoration: none;
+  color: rgb(25, 38, 51);
+  font-family: "Architects Daughter", cursive;
+  font-size: 18px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header nav > ul > li:last-child {
+  border-radius: 0 10px 10px 0;
+}
+header nav > ul > li:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+header nav > ul > li:hover {
+  background-color: rgba(167, 167, 167, 0.582);
+  transform: scale(1.03);
+  width: 230px;
+}
+
+header nav:hover {
+  background-color: rgba(104, 104, 104, 0.507);
+
+  /*transform: scale(1.03);*/
+}
+
+header nav > ul > li > a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  header {
+    display: none;
+  }
+}
