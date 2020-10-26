@@ -4,7 +4,7 @@ header nav {
   display: flex;
   justify-content: center;
   height: 100%;
-  background-color: rgba(109, 117, 134, 0);
+  background-color: "#60D4AE";
   height: 50px;
   border-radius: 0 0 10px 10px;
   transition: all 1s ease-out;
@@ -34,7 +34,7 @@ header nav > ul > li {
 
 header nav > ul > li > a {
   text-decoration: none;
-  color: rgb(25, 38, 51);
+  color: "#006E4A";
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
   height: 100%;
